@@ -89,6 +89,7 @@ class LinkedList:
             # `current` is now pointing at the Node right
             # before the tail Node
             self.tail = current
+            self.tail.set_next(None) 
 
         return data
 
